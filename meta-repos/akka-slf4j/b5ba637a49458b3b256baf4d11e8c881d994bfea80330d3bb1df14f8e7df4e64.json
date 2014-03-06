@@ -1,0 +1,1795 @@
+{
+  "id" : "akka-slf4j",
+  "variants" : [ "fd50073f0545aefea6634dbda9f964cad4cf5a80accc288946d71f876a67e711", "e29ba9ebb02711711f44efe93e17de573a541e2bfe26f5854cb99f1938816dfe", "f4e59f2a00309e0e08d399d581d9ee14a8f7a3462835d4fb6c73a986cfdc8396", "3c286b347b8deec82c86db977100378cdbe59d46fc6a88cf9402b183149c413b", "90926ea331a473b864a1051bace49ccee3b2f47a2115fa3aa2eb6a762aae1f2b", "3e274a1b8613e0a6fb1effdbc1ab90ae0abc2c9344ff968318415edff828e0eb", "a028da84511d249f7ab3c6e933d12e3d55de95bd4761839891f80256f4adf49a", "b4ab726690997860321214495c2bba490bc725c5cea9cd43a03c10fd8739527a", "81d80918216b000cd4ad8384e91804b7905d1e39919e71262b9bf75b073ed48b", "50a45763179874a7552f10f1d262d88558f142ea1b38fe96c79ce7f4815c6209", "5ef5ffd5bd89addccfc4c93b5aa1b5fc3e28c8287437f75c77b24a0cc848c671" ],
+  "configurations" : [ {
+    "id" : "test",
+    "repositories" : [ {
+      "id" : "scala-library",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "akka-actor/config/test",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "config/config/system",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/default",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "slf4j-api/config/provided",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "scala-library/config/default",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/master",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/sources",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/optional",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "config/config/runtime",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/master",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "akka-actor/config/runtime",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "slf4j-api/config/compile",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "slf4j-api/config/system",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "akka-actor/config/optional",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "config",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/provided",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "config/config/master",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/optional",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/default",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/provided",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/test",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "slf4j-api/config/sources",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "akka-actor",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "scala-library/config/javadoc",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/optional",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "config/config/sources",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/test",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/master",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "scala-library/config/system",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/runtime",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "config/config/javadoc",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "slf4j-api/config/runtime",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "scala-library/config/compile",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/default",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "config/config/compile",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/system",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "akka-actor/config/sources",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "scala-library/config/provided",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/test",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "slf4j-api",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "akka-actor/config/compile",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "akka-actor/config/javadoc",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "slf4j-api/config/javadoc",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    } ]
+  }, {
+    "id" : "provided",
+    "repositories" : [ {
+      "id" : "scala-library",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "akka-actor/config/test",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "config/config/system",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/default",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "slf4j-api/config/provided",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "scala-library/config/default",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/master",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/sources",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/optional",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "config/config/runtime",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/master",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "akka-actor/config/runtime",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "slf4j-api/config/compile",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "slf4j-api/config/system",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "akka-actor/config/optional",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "config",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/provided",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "config/config/master",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/optional",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/default",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/provided",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/test",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "slf4j-api/config/sources",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "akka-actor",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "scala-library/config/javadoc",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/optional",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "config/config/sources",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/test",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/master",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "scala-library/config/system",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/runtime",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "config/config/javadoc",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "slf4j-api/config/runtime",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "scala-library/config/compile",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/default",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "config/config/compile",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/system",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "akka-actor/config/sources",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "scala-library/config/provided",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/test",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "slf4j-api",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "akka-actor/config/compile",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "akka-actor/config/javadoc",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "slf4j-api/config/javadoc",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    } ]
+  }, {
+    "id" : "system",
+    "repositories" : [ {
+      "id" : "scala-library",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "akka-actor/config/test",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "config/config/system",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/default",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "slf4j-api/config/provided",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "scala-library/config/default",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/master",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/sources",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/optional",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "config/config/runtime",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/master",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "akka-actor/config/runtime",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "slf4j-api/config/compile",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "slf4j-api/config/system",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "akka-actor/config/optional",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "config",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/provided",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "config/config/master",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/optional",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/default",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/provided",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/test",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "slf4j-api/config/sources",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "akka-actor",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "scala-library/config/javadoc",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/optional",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "config/config/sources",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/test",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/master",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "scala-library/config/system",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/runtime",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "config/config/javadoc",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "slf4j-api/config/runtime",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "scala-library/config/compile",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/default",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "config/config/compile",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/system",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "akka-actor/config/sources",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "scala-library/config/provided",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/test",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "slf4j-api",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "akka-actor/config/compile",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "akka-actor/config/javadoc",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "slf4j-api/config/javadoc",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    } ]
+  }, {
+    "id" : "master",
+    "repositories" : [ {
+      "id" : "scala-library",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "akka-actor/config/test",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "config/config/system",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/default",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "slf4j-api/config/provided",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "scala-library/config/default",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/master",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/sources",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/optional",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "config/config/runtime",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/master",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "akka-actor/config/runtime",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "slf4j-api/config/compile",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "slf4j-api/config/system",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "akka-actor/config/optional",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "config",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/provided",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "config/config/master",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/optional",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/default",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/provided",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/test",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "slf4j-api/config/sources",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "akka-actor",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "scala-library/config/javadoc",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/optional",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "config/config/sources",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/test",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/master",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "scala-library/config/system",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/runtime",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "config/config/javadoc",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "slf4j-api/config/runtime",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "scala-library/config/compile",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/default",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "config/config/compile",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/system",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "akka-actor/config/sources",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "scala-library/config/provided",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/test",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "slf4j-api",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "akka-actor/config/compile",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "akka-actor/config/javadoc",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "slf4j-api/config/javadoc",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    } ]
+  }, {
+    "id" : "optional",
+    "repositories" : [ {
+      "id" : "scala-library",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "akka-actor/config/test",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "config/config/system",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/default",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "slf4j-api/config/provided",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "scala-library/config/default",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/master",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/sources",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/optional",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "config/config/runtime",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/master",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "akka-actor/config/runtime",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "slf4j-api/config/compile",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "slf4j-api/config/system",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "akka-actor/config/optional",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "config",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/provided",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "config/config/master",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/optional",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/default",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/provided",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/test",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "slf4j-api/config/sources",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "akka-actor",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "scala-library/config/javadoc",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/optional",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "config/config/sources",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/test",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/master",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "scala-library/config/system",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/runtime",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "config/config/javadoc",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "slf4j-api/config/runtime",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "scala-library/config/compile",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/default",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "config/config/compile",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/system",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "akka-actor/config/sources",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "scala-library/config/provided",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/test",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "slf4j-api",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "akka-actor/config/compile",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "akka-actor/config/javadoc",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "slf4j-api/config/javadoc",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    } ]
+  }, {
+    "id" : "compile",
+    "repositories" : [ {
+      "id" : "scala-library",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "akka-actor/config/test",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "config/config/system",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/default",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "slf4j-api/config/provided",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "scala-library/config/default",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/master",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/sources",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/optional",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "config/config/runtime",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/master",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "akka-actor/config/runtime",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "slf4j-api/config/compile",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "slf4j-api/config/system",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "akka-actor/config/optional",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "config",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/provided",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "config/config/master",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/optional",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/default",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/provided",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/test",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "slf4j-api/config/sources",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "akka-actor",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "scala-library/config/javadoc",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/optional",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "config/config/sources",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/test",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/master",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "scala-library/config/system",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/runtime",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "config/config/javadoc",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "slf4j-api/config/runtime",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "scala-library/config/compile",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/default",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "config/config/compile",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/system",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "akka-actor/config/sources",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "scala-library/config/provided",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/test",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "slf4j-api",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "akka-actor/config/compile",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "akka-actor/config/javadoc",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "slf4j-api/config/javadoc",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    } ]
+  }, {
+    "id" : "default",
+    "repositories" : [ {
+      "id" : "scala-library",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "akka-actor/config/test",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "config/config/system",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/default",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "slf4j-api/config/provided",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "scala-library/config/default",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/master",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/sources",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/optional",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "config/config/runtime",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/master",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "akka-actor/config/runtime",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "slf4j-api/config/compile",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "slf4j-api/config/system",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "akka-actor/config/optional",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "config",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/provided",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "config/config/master",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/optional",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/default",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/provided",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/test",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "slf4j-api/config/sources",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "akka-actor",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "scala-library/config/javadoc",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/optional",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "config/config/sources",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/test",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/master",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "scala-library/config/system",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/runtime",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "config/config/javadoc",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "slf4j-api/config/runtime",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "scala-library/config/compile",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/default",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "config/config/compile",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/system",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "akka-actor/config/sources",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "scala-library/config/provided",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/test",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "slf4j-api",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "akka-actor/config/compile",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "akka-actor/config/javadoc",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "slf4j-api/config/javadoc",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    } ]
+  }, {
+    "id" : "sources",
+    "repositories" : [ {
+      "id" : "scala-library",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "akka-actor/config/test",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "config/config/system",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/default",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "slf4j-api/config/provided",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "scala-library/config/default",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/master",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/sources",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/optional",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "config/config/runtime",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/master",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "akka-actor/config/runtime",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "slf4j-api/config/compile",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "slf4j-api/config/system",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "akka-actor/config/optional",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "config",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/provided",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "config/config/master",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/optional",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/default",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/provided",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/test",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "slf4j-api/config/sources",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "akka-actor",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "scala-library/config/javadoc",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/optional",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "config/config/sources",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/test",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/master",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "scala-library/config/system",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/runtime",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "config/config/javadoc",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "slf4j-api/config/runtime",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "scala-library/config/compile",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/default",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "config/config/compile",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/system",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "akka-actor/config/sources",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "scala-library/config/provided",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/test",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "slf4j-api",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "akka-actor/config/compile",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "akka-actor/config/javadoc",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "slf4j-api/config/javadoc",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    } ]
+  }, {
+    "id" : "javadoc",
+    "repositories" : [ {
+      "id" : "scala-library",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "akka-actor/config/test",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "config/config/system",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/default",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "slf4j-api/config/provided",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "scala-library/config/default",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/master",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/sources",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/optional",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "config/config/runtime",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/master",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "akka-actor/config/runtime",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "slf4j-api/config/compile",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "slf4j-api/config/system",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "akka-actor/config/optional",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "config",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/provided",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "config/config/master",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/optional",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/default",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/provided",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/test",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "slf4j-api/config/sources",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "akka-actor",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "scala-library/config/javadoc",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/optional",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "config/config/sources",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/test",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/master",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "scala-library/config/system",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/runtime",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "config/config/javadoc",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "slf4j-api/config/runtime",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "scala-library/config/compile",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/default",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "config/config/compile",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/system",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "akka-actor/config/sources",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "scala-library/config/provided",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/test",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "slf4j-api",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "akka-actor/config/compile",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "akka-actor/config/javadoc",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "slf4j-api/config/javadoc",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    } ]
+  }, {
+    "id" : "runtime",
+    "repositories" : [ {
+      "id" : "scala-library",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "akka-actor/config/test",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "config/config/system",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/default",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "slf4j-api/config/provided",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "scala-library/config/default",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/master",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/sources",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/optional",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "config/config/runtime",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/master",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "akka-actor/config/runtime",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "slf4j-api/config/compile",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "slf4j-api/config/system",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "akka-actor/config/optional",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "config",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/provided",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "config/config/master",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/optional",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/default",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/provided",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/test",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "slf4j-api/config/sources",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "akka-actor",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "scala-library/config/javadoc",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/optional",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "config/config/sources",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/test",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/master",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "scala-library/config/system",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "scala-library/config/runtime",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "config/config/javadoc",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "slf4j-api/config/runtime",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "scala-library/config/compile",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/default",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "config/config/compile",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "akka-actor/config/system",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "akka-actor/config/sources",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "scala-library/config/provided",
+      "repository" : "org.scala-lang",
+      "commit" : "3da43ca81a8e08091c6cdea4e4c35144b0f81ebe"
+    }, {
+      "id" : "slf4j-api/config/test",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "slf4j-api",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    }, {
+      "id" : "akka-actor/config/compile",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "akka-actor/config/javadoc",
+      "repository" : "com.typesafe.akka",
+      "commit" : "8d37a84315de03241cd3bf4fc62d7687dcf4dfe1"
+    }, {
+      "id" : "slf4j-api/config/javadoc",
+      "repository" : "org.slf4j",
+      "commit" : "8ebb02e85f04330ace0f7ea092b42cb1e42b01d2"
+    } ]
+  } ]
+}
