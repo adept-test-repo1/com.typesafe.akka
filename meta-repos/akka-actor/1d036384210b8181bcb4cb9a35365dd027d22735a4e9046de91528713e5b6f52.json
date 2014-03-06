@@ -1,0 +1,915 @@
+{
+  "id" : "akka-actor",
+  "variants" : [ "ceccc204ec444421bfdb0feafe091ede4d0dba40a8e5e722c40d5e1552047542", "aa66d114051e2c96376e91a7fde346915b8292f6dc5dd82bd6be254045b08f18", "40baf5b1a442738173991776421b142aeb6bb2a8508092dd9c28197d3f9fabb8", "a02081ee0a4aef43a32740d7b505e613b8183fa9d5684e9685c59b5834d4db02", "a7b227c29d917f46053b26556831b2f66537049c496289b9f14c332fa2038b21", "4c3a3c6bc777a9ddbfeb0eda8bf2f567dd3cdf4ea6c20698edb18a1e3f49ec44", "93d2b5a4acf1ccab7d6cfbb1f07fc08e76bc85afced03e317fef84a7eafa3c2c", "7f4b5f629e877c8cf2d78dca7fbd178b1b0719470a918a20bd8d0f0be87fc08e", "98a4d52c555857de3faf903195d49bc1e51c782702530a0c3916360680f85519", "9a5db293d6e22504052620d3a62602ad025e0936c126068e75824c0b61b62b2d", "1854764550d9aadea8795041b39683b8ad04913c6cf8c2c6094b49240188f0fb" ],
+  "configurations" : [ {
+    "id" : "test",
+    "repositories" : [ {
+      "id" : "scala-library/config/javadoc",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/system",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/provided",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/runtime",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/master",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/optional",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/default",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/provided",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/test",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/runtime",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/system",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/sources",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/optional",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/master",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/default",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/javadoc",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/compile",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/sources",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/compile",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/test",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    } ]
+  }, {
+    "id" : "provided",
+    "repositories" : [ {
+      "id" : "scala-library/config/javadoc",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/system",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/provided",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/runtime",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/master",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/optional",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/default",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/provided",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/test",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/runtime",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/system",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/sources",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/optional",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/master",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/default",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/javadoc",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/compile",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/sources",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/compile",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/test",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    } ]
+  }, {
+    "id" : "system",
+    "repositories" : [ {
+      "id" : "scala-library/config/javadoc",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/system",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/provided",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/runtime",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/master",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/optional",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/default",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/provided",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/test",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/runtime",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/system",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/sources",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/optional",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/master",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/default",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/javadoc",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/compile",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/sources",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/compile",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/test",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    } ]
+  }, {
+    "id" : "master",
+    "repositories" : [ {
+      "id" : "scala-library/config/javadoc",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/system",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/provided",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/runtime",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/master",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/optional",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/default",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/provided",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/test",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/runtime",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/system",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/sources",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/optional",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/master",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/default",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/javadoc",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/compile",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/sources",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/compile",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/test",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    } ]
+  }, {
+    "id" : "optional",
+    "repositories" : [ {
+      "id" : "scala-library/config/javadoc",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/system",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/provided",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/runtime",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/master",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/optional",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/default",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/provided",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/test",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/runtime",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/system",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/sources",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/optional",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/master",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/default",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/javadoc",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/compile",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/sources",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/compile",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/test",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    } ]
+  }, {
+    "id" : "compile",
+    "repositories" : [ {
+      "id" : "scala-library/config/javadoc",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/system",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/provided",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/runtime",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/master",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/optional",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/default",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/provided",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/test",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/runtime",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/system",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/sources",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/optional",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/master",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/default",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/javadoc",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/compile",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/sources",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/compile",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/test",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    } ]
+  }, {
+    "id" : "default",
+    "repositories" : [ {
+      "id" : "scala-library/config/javadoc",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/system",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/provided",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/runtime",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/master",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/optional",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/default",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/provided",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/test",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/runtime",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/system",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/sources",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/optional",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/master",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/default",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/javadoc",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/compile",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/sources",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/compile",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/test",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    } ]
+  }, {
+    "id" : "sources",
+    "repositories" : [ {
+      "id" : "scala-library/config/javadoc",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/system",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/provided",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/runtime",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/master",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/optional",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/default",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/provided",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/test",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/runtime",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/system",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/sources",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/optional",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/master",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/default",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/javadoc",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/compile",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/sources",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/compile",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/test",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    } ]
+  }, {
+    "id" : "javadoc",
+    "repositories" : [ {
+      "id" : "scala-library/config/javadoc",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/system",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/provided",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/runtime",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/master",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/optional",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/default",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/provided",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/test",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/runtime",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/system",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/sources",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/optional",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/master",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/default",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/javadoc",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/compile",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/sources",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/compile",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/test",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    } ]
+  }, {
+    "id" : "runtime",
+    "repositories" : [ {
+      "id" : "scala-library/config/javadoc",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/system",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/provided",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/runtime",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/master",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/optional",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/default",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/provided",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/test",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/runtime",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/system",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/sources",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/optional",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/master",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/default",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "config/config/javadoc",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "config/config/compile",
+      "repository" : "com.typesafe",
+      "commit" : "200c09c67b9a66c573aecce689f806c61b332421"
+    }, {
+      "id" : "scala-library/config/sources",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/compile",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    }, {
+      "id" : "scala-library/config/test",
+      "repository" : "org.scala-lang",
+      "commit" : "3a9142c2c66fe1cc1d8191e2cc3a820fc2110c07"
+    } ]
+  } ]
+}
